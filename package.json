@@ -1,0 +1,39 @@
+{
+  "name": "reactive-snake-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cycle/dom": "^22.7.0",
+    "@cycle/isolate": "5.0.0",
+    "@cycle/run": "5.2.0",
+    "@cycle/time": "0.8.0",
+    "@cycle/most-run": "8.2.0",
+    "most": "1.7.2",
+    "snabbdom": "0.7.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.6.5",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "babelify": "^7.2.0",
+    "browserify": "16.2.x",
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mkdirp": "0.5.x",
+    "style-loader": "^2.0.0",
+    "webpack": "4.29.5",
+    "webpack-bundle-analyzer": "3.0.4",
+    "webpack-cli": "3.2.3",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-hot-middleware": "2.24.3",
+    "webpack-merge": "4.1.2",
+    "webpack-svgstore-plugin": "4.1.0"
+  }
+}
